@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 # =====================
 load_dotenv()
 content_dir = Path("content")
-training_path = content_dir / "training set.txt"
-vocabulario_path = content_dir / "vocabulario.txt"
+training_path =  "training set.txt"
+vocabulario_path =  "vocabulario.txt"
 
 with open(training_path, encoding="utf-8") as f:
     training_set = f.read()
