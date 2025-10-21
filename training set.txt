@@ -1,252 +1,201 @@
-Chino 1
-1.	 Traducir las siguientes frases a español
-
-a.	你的妈妈好吗？
-
-
-b.	我住在大学，你呢?
-
-
-c. 我们的老师很忙。
-
-
-d. 你们的房间很漂亮
-
-
-e. 那是不是你的女朋友？
-
-2.	 Completar las siguientes frases con el hanzi correcto
-
-a.	你是_______国人
-
-b.	这是______是我们老师？
-
-c.	你爸爸妈妈_______都好吗？
-
-d.	你的电话__________是多少？
-
-e.	你叫__________名字
-
-
-
-
-3.	Organizar los siguientes hanzi para formar una frase
-a.	 名    我     叫    丁    字   马   的
-
-
-b. 楼     在      号     的      207      住    我     3
-
-
-c. 忙     们    很     都    的    师   老    我    们
-
-
-d.     友     是     朋     不     他    吗    们     是
-
-
-       e.      帅      很     不     男     朋    的    友    你
-
-1.	你有多少手机？
-
-2.	学校的里边有几个老师？
-
-
-3.	你们家有几个人？
-
-4.	你要多少瓶茶？
-
-
-5.	在咖啡馆的旁边有几个座位？
-
-
- Completar las siguientes frases con el hanzi correcto
-a. 你有 ______ 个背包
-b. 她的妈妈 ______ 房间吗？
-c. 你有 ______ 有名片？
-d. 在学校的 ______ 有一个饭馆
-e. ______ 有几个学生？
-Organizar los siguientes hanzi para formar una frase
-个 车 有 我 多少
-几 你 有 背包 个
-学校 的是 哪个 你
-的 妈妈 吗 你 很 忙
-有 她 几 伞 个
-
-
-a.	你有多少电脑？
-
-
-b.	我们没有作为?
-
-
-c. 在学校的里边有一个银行。
-
-
-d. 你的背包是哪个
-
-
-e. 她们要四个汉堡？
-
-2.	 Completar las siguientes frases con el hanzi correcto
-
-a.	你有_______个车
-
-b.	我们老师______学校吗？
-
-c.	你有_______有伞？
-
-d.	在家的__________有很多车
-
-e.	_________那儿有一个咖啡馆
-
-
-
-
-3.	Organizar los siguientes hanzi para formar una frase
-a.	  个      边       在     一    有    馆啡咖     的    行银           旁
-
-b. 几      有     个    学     师老      生
-
-
-c. 夹克      没      女      有     的    朋友     我 
-
-
-d. 有      里边     的     在     餐厅           这儿
-
-
-f.	多       女人       在         大学     的    有    我们     很
-
-
-chino 2
-我们的学校很好
-老师没有电脑
-他的爸爸是记者
-中国的茶不很贵
-医院没有饭店
-
-你有几个手机
-在这里有两个电话
-在学校没有水
-中国有很多人
-汉语的学校很少
-
-你什么时候来语言的学院？ 我没有时间去
-我们在中国的时候，喝很多茶
-你的女朋友叫什么？她叫琳娜
-你要一个杯子吗？不， 我要两个杯子
-
-今天下午我们去商店
-
-他明天早上回学校
-
-昨天晚上他们在饭店吃米饭
-
-我现在没有时间
-
-我跟朋友一起去北京
-
-老师在学校看书
-
+chino 1
+vocabulario 1
+我是老师。
+你是学生吗？
+她不是老师。
+他们是学生。
+我们有三十个学生。
+他有一千个朋友。
+
+vocabulario 2
+我是学生。
+她不是老师。
+你是医生吗？
+他也是学生。
+我们很忙。
+这是我的朋友。
+那个是老师。
+你是哪一个学生？
+她是我的妈妈。
+他是我的爸爸。
+
+vocabulario 3
+我喜欢吃苹果。
+他在吃面条。
+哥哥喝水。
+弟弟喜欢喝茶。
+我们吃炒饭。
+她不喜欢咖啡。
+你听那个人吗？
+他们来中国。
+那是我的大学。
+我也喜欢香蕉。
+
+vocabulario 4
+我在学校。
+他在家。
+你在哪里？
+这里有一本书。
+那里没有学生。
+我们上课。
+他们下课。
+这个班有多少学生？
+你家有几只猫？
+她家有一只狗。
+他在看书。
+那个老师在上课。
+我们班有二十个学生。
+学校里有很多狗。
+这里没有猫。
+
+Chino2
+vocabulario 1
+这个杯子多少钱？
+那个椅子多少钱？
+你有几个朋友？
+学校里有多少学生？
+商店里有很多东西。
+我在饭店吃米饭。
+他在医院。
+你家有几把椅子？
+北京有很多人。
+上海有很多商店。
+你有几个杯子？
+桌子上有一本汉语书。
+他在火车站。
+我用电脑打电话。
+这件衣服多少钱？
+
+vocabulario 2
+你是记者吗？
+请进。
+请问，你贵姓？
+他喜欢学语言。
+她会说汉语。
+这是我的手机。
+你有几个手机？
+请喝水。
+他不喜欢茶。
+我在美国。
+他们在学校学汉语。
+记者在问老师。
+这碗米饭多少钱？
+请问，商店在哪里？
+她也学语言。
+
+vocabulario 3
+你什么时候吃饭？
+我学习的时候喝咖啡。
+现在几点？
+今天是星期五。
+明天中午我们去饭店。
+昨天晚上我在看书。
+现在是三点半。
+他下午去学校。
+我跟朋友一起买东西。
 你几点回家？
+她早上喝茶。
+医生说他很忙。
+我们在学校听老师。
+这个月我去北京。
+那个时候他们在上课。
 
-下午三点半我们去医院
+vocabulario 4
+你怎么去学校？
+今天怎么样？
+这些水果很贵。
+那些书和这些书一样。
+这个苹果太大了。
+医院在前面。
+学校在后面。
+先生，请进。
+小姐在商店工作。
+我坐飞机去北京。
+她要坐出租车回家。
+我们在看电视。
+对不起，我没时间。
+没关系。
+你在读汉语书吗？
+他写汉字。
+她做米饭。
+我在医院工作。
+请问，你的手机在哪些桌子上？
+这件衣服怎么样？
 
-桌子上有两个杯子
+vocabulario 5
 
-椅子下面有东西
 
-你的衣服很贵
 
-我在火车站听他说话
+tipos de preguntas de un examen
+question type 1
+Fill the blank space with the right hanzi
+for example
+question: 你有_____个杯子？
+answer: 几
 
-北京的茶很好喝
 
-今天中午你吃米饭吗？
+question type 2
+Answer the question
+for example
+question：你是哪国人？
+answer：我是中国人
 
-他买了一本汉语书
+question type 3
+Organize the characters to get a coherent sentence (make sure to keep words together, and separate word by word by 3 or 4 spaces)
+for example
+question: 上课　 在　 那个时候　 他们
+answer: 那个时候他们在上课
 
+question type 4
+translate the sentence from Chinese to Spanish
+for example
+question: 她要坐出租车回家
+answer: ella quiere tomar taxi para regresar a casa
+
+question type 5
+translate the sentence from Spanish to Chinese 
+for example
+question: Ahora son las tres y media
+answer: 现在是三点半
+
+question type 6
+generate a text using between {length} characters and produce 5 questions
+for example:
+text:
+今天早上我和朋友在学校。我们上课的时候，老师说汉语，学生听和写。下课以后，我们去饭店吃米饭，喝茶。中午我跟哥哥去商店买东西，他买衣服，我买水果。下午我们回家，看电视，读书。晚上我用手机写汉字，弟弟在电脑前面工作。现在几点？八点半。太晚了，我明天要去大学。
+
+questions:
+今天早上他们在哪里？
+下课以后他们做什么？
+哥哥在商店买什么？
+弟弟下午在哪里？
 现在几点？
 
-他们没有钱买电脑
+answers:
+今天早上他们在哪里？
+在学校。
 
-我们在商店看见他的手机
+下课以后他们做什么？
+去饭店吃米饭，喝茶。
 
-你跟谁去饭店？
+哥哥在商店买什么？
+买衣服。
 
-美国的记者在中国
-你什么时候去学校？
+弟弟下午在哪里？
+在电脑前面工作。
 
-你什么时候回家？
+现在几点？
+八点半
 
-你什么时候去饭店？
+question type 7
+Generate 6-7 characters, write a text of {length} characters.
 
-你什么时候去商店？
+for example
+write a text of {length} characters.
+question: 水， 几， 买， 看， 老师，先生
+answer:
+今天先生在商店，看水。老师来了，也买水。几个学生看到老师和先生买水，他们也想买。老师看学生，说：“你们要几杯水？”学生说：“我们要三杯水。”先生和老师一起笑，看他们买水。
 
-你什么时候去医院？
 
-你什么时候去火车站？
-
-你什么时候来北京？
-
-你什么时候去中国？
-
-你什么时候跟朋友去饭店？
-
-你什么时候买东西？
-我们在学校的时候，看汉语书
-
-我们在饭店的时候，吃米饭
-
-我们在商店的时候，买东西
-
-我们在北京的时候，喝水
-
-我们在火车站的时候，听他说话
-
-我们在医院的时候，问医生
-
-我们在家里的时候，说汉语
-
-我们在美国的时候，买衣服
-
-我们在学校的时候，听老师说话
-
-我们在饭店的时候，喝茶
-几 (jǐ)
-
-Se usa cuando esperamos un número pequeño (generalmente menor de 10).
-
-Normalmente va acompañado de clasificador.
-
-Es más común en preguntas esperando un rango limitado.
-
-✅ Ejemplos:
-
-你有几个手机？ (¿Cuántos celulares tienes?) → Se espera “dos”, “tres”, un número pequeño.
-
-今天几号？ (¿Qué día del mes es hoy?)
-
-现在几点？ (¿Qué hora es ahora?)
-
-多少 (duōshǎo)
-
-Se usa cuando el número puede ser grande o indeterminado (sin límite).
-
-Puede usarse con o sin clasificador, dependiendo del sustantivo.
-
-Es la opción más general.
-
-✅ Ejemplos:
-
-你有多少钱？ (¿Cuánto dinero tienes?) → el dinero puede ser mucho.
-
-你们学校有多少学生？ (¿Cuántos estudiantes hay en tu escuela?) → se espera un número grande.
-
-这件衣服多少钱？ (¿Cuánto cuesta esta prenda?)
-
-🔑 Regla práctica:
-
-几 → número pequeño, limitado, concreto
-
-多少 → número grande o desconocido, abierto
 
 
