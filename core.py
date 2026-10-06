@@ -47,18 +47,41 @@ def cargar_vocabulario(texto: str) -> dict[int, dict[int, list[str]]]:
     for nivel, unidades in _leer_secciones(texto).items():
         salida[nivel] = {}
         for unidad, lineas in unidades.items():
-            palabras: list[str] = []
-            for linea in lineas:
-                for p in re.split(r"[，,、;；\s]+", linea):
-                    if p and p not in palabras:
-                        palabras.append(p)
-            salida[nivel][unidad] = palabras
+            salida[nivel][unidad] = separar_palabras(" ".join(lineas))
     return salida
 
 
 def cargar_frases(texto: str) -> dict[int, dict[int, list[str]]]:
     """{nivel: {unidad: [frases de ejemplo]}} a partir de training set.txt."""
     return _leer_secciones(texto)
+
+
+def separar_palabras(texto: str) -> list[str]:
+    """'我，你, 他' o una palabra por línea -> ['我', '你', '他'] sin repetidos."""
+    palabras: list[str] = []
+    for p in re.split(r"[，,、;；\s]+", texto or ""):
+        if p and p not in palabras:
+            palabras.append(p)
+    return palabras
+
+
+def guardar_unidad(texto: str, nivel: int, unidad: int, lineas: list[str]) -> str:
+    """Devuelve el archivo (vocabulario.txt o training set.txt) con esa unidad creada o reemplazada.
+
+    Conserva el resto del contenido, incluida la parte final 'tipos de preguntas…'.
+    """
+    cuerpo, cola = texto, ""
+    if m := re.search(r"^[ \t]*tipos de preguntas.*", texto, re.I | re.M | re.S):
+        cuerpo, cola = texto[: m.start()], m.group(0).rstrip() + "\n"
+    datos = _leer_secciones(cuerpo)
+    datos.setdefault(nivel, {})[unidad] = [l.strip() for l in lineas if l.strip()]
+    partes = []
+    for n in sorted(datos):
+        partes.append(f"Chino {n}")
+        for u in sorted(datos[n]):
+            partes.append(f"vocabulario {u}\n" + "\n".join(datos[n][u]) + "\n")
+        partes.append("")
+    return "\n".join(partes).rstrip() + "\n" + ("\n\n" + cola if cola else "")
 
 
 @dataclass(frozen=True)
@@ -254,6 +277,17 @@ class Tutor:
             raise ValueError("El modelo no devolvió frases utilizables.")
         return frases
 
+    # -- frases de entrenamiento para un vocabulario nuevo -----------------
+    def sugerir_frases(self, ctx: Contexto, n: int = 12) -> list[str]:
+        usuario = (
+            f"Escribe {n} frases de ejemplo en chino para enseñar las palabras de [FOCO], como las frases de ejemplo "
+            "de las unidades anteriores: cortas, naturales y de dificultad progresiva. Entre todas deben cubrir "
+            "todas las palabras de [FOCO]. Incluye afirmaciones, negaciones y preguntas.\n"
+            'Devuelve SOLO un objeto JSON: {"frases":["frase 1","frase 2"]}'
+        )
+        datos = self._json(self._base(ctx), usuario, temperatura=0.8)
+        return [str(f).strip() for f in datos.get("frases", []) if str(f).strip()]
+
     # -- glosario ----------------------------------------------------------
     def glosario(self, palabras) -> list[dict]:
         usuario = (
@@ -313,8 +347,9 @@ class Tutor:
         return self.calificar_examen([item])["1"]
 
     # -- examen ------------------------------------------------------------
-    def generar_examen(self, ctx: Contexto, dificultad: str, n: int) -> list[dict]:
-        plan = plan_examen(dificultad, n)
+    def generar_examen(self, ctx: Contexto, dificultad: str, n: int, plan: list[str] | None = None) -> list[dict]:
+        plan = plan or plan_examen(dificultad, n)
+        n = len(plan)
         lista = "\n".join(f"{i}. {t}" for i, t in enumerate(plan, 1))
         esquemas = "\n".join(f"- {ESQUEMAS[t]}" for t in dict.fromkeys(plan))
         usuario = (

@@ -7,6 +7,7 @@ import streamlit as st
 from openai import OpenAI
 
 import core
+import zona_profesor
 
 st.set_page_config(page_title="Asistente de Mandarín", page_icon="🀄", layout="centered")
 
@@ -139,7 +140,7 @@ def cabecera(titulo: str | None = None, desc: str | None = None):
         '<div class="marca"><span class="sello">汉语</span><h1>Asistente de Mandarín</h1></div>',
         unsafe_allow_html=True,
     )
-    if S.pagina == "inicio":
+    if S.pagina in ("inicio", "profesor"):
         return
     chips = f'<span class="chip">Chino {S.nivel}</span>' + "".join(
         f'<span class="chip">Vocabulario {u}</span>' for u in S.unidades
@@ -198,6 +199,16 @@ def pagina_inicio():
         ir("menu")
     if not elegidas:
         st.caption("Elige al menos un vocabulario para continuar.")
+    st.divider()
+    if st.button("🔒 Zona del profesor", key="ir_profesor"):
+        ir("profesor")
+
+
+def pagina_profesor():
+    cabecera()
+    if st.button("← Volver al inicio"):
+        ir("inicio")
+    zona_profesor.render(TUTOR, VOCAB, FRASES, RAIZ, leer_secreto, audio_mp3, cargar_curso.clear)
 
 
 # ---------------------------------------------------------------------------
@@ -539,7 +550,7 @@ def pagina_vocab():
 # ---------------------------------------------------------------------------
 # Navegación
 # ---------------------------------------------------------------------------
-if S.pagina != "inicio" and not S.get("unidades"):
+if S.pagina not in ("inicio", "profesor") and not S.get("unidades"):
     S.pagina = "inicio"
 
 if S.pagina == "inicio":
@@ -554,3 +565,5 @@ elif S.pagina == "examen":
     pagina_examen()
 elif S.pagina == "vocab":
     pagina_vocab()
+elif S.pagina == "profesor":
+    pagina_profesor()
